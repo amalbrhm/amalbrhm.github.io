@@ -68,10 +68,17 @@
       <div class="project">
         <h3>Détection d’anomalies audio industrielles</h3>
         <p>
-  Développement d’un pipeline non supervisé de détection d’anomalies audio industrielles.
-  Extraction de descripteurs log-mel, apprentissage d’un autoencodeur convolutionnel (PyTorch)
-  sur des signaux “normaux”, puis scoring par erreur de reconstruction. Évaluation par ROC-AUC.
+  <strong>Objectif :</strong> détecter automatiquement des anomalies audio industrielles
+  dans un contexte faiblement ou non supervisé.<br>
+
+  <strong>Méthode :</strong> extraction de spectrogrammes log-mel, entraînement d’un
+  autoencodeur convolutionnel (PyTorch) sur données normales, score basé sur l’erreur
+  de reconstruction.<br>
+
+  <strong>Évaluation :</strong> métrique ROC-AUC, analyse de la sensibilité aux seuils
+  et au bruit.
 </p>
+
 <p class="tags">Mots-clés : PyTorch · Autoencodeur · Log-mel · Détection d’anomalies · ROC-AUC</p>
 <div class="project-links">
   <a href="projects/projet_multimodal.html">Détails du projet</a>
@@ -88,7 +95,17 @@
   moléculaires 2D via programmation par contraintes. Formalisation du problème en CSP/COP
   et résolution avec Choco Solver, avec un accent sur la rigueur de la modélisation, la
   cohérence des solutions et l’exploration exhaustive sous contraintes.
+</p><p>
+  <strong>Objectif :</strong> générer automatiquement et de manière exhaustive des
+  structures moléculaires 2D valides sous contraintes chimiques et topologiques.<br>
+
+  <strong>Méthode :</strong> modélisation formelle du problème en CSP/COP, définition
+  de variables et contraintes sur les cycles (5/6/7), résolution par Choco Solver.<br>
+
+  <strong>Évaluation :</strong> vérification de la faisabilité, cohérence des solutions
+  générées et analyse de la couverture de l’espace de recherche.
 </p>
+
 <p class="tags">Mots-clés : CSP/COP · Choco Solver · Modélisation · Génération exhaustive</p>
 <div class="project-links">
     <a href="projects/projet_csp.html">Détails du projet</a>
@@ -102,10 +119,16 @@
       <div class="project">
         <h3>Prévision de la demande par LSTM</h3>
         <p>
-  Modélisation de séries temporelles pour la prévision de demande : construction de baselines,
-  feature engineering calendaire, entraînement de réseaux LSTM et validation par backtesting.
-  Analyse comparative des performances et des limites (saisonnalité, dérive, horizon).
+  <strong>Objectif :</strong> prédire la demande à partir de séries temporelles dans un
+  contexte inspiré de cas industriels.<br>
+
+  <strong>Méthode :</strong> feature engineering calendaire, construction de baselines
+  et entraînement de réseaux LSTM (PyTorch), validation par backtesting temporel.<br>
+
+  <strong>Évaluation :</strong> comparaison des performances sur différents horizons
+  et analyse des erreurs.
 </p>
+
 <p class="tags">Mots-clés : Séries temporelles · LSTM · Feature engineering · Backtesting</p>
 <div class="project-links">
     <a href="projects/projet_lstm.html">Détails du projet</a>
