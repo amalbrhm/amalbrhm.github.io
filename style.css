@@ -85,3 +85,29 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
 }
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.skill-card {
+  background: white;
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #10b981;
+}
+
+.skill-card h3 {
+  margin-top: 0;
+}
+
+.skill-card ul {
+  margin: 0.5rem 0 0 1rem;
+}
+
+.tags {
+  margin-top: 0.6rem;
+  color: #475569;
+  font-size: 0.95rem;
+}

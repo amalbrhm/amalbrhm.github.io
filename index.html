@@ -19,6 +19,8 @@
   <nav>
     <a href="#about">À propos</a>
     <a href="#projects">Projets</a>
+    <a href="#skills">Compétences</a>
+
     <a href="#contact">Contact</a>
   </nav>
 
@@ -55,28 +57,77 @@
       <div class="project">
         <h3>Détection d’anomalies audio industrielles</h3>
         <p>
-          Pipeline non supervisé basé sur un autoencodeur convolutionnel pour la détection
-          d’anomalies audio industrielles. Extraction de caractéristiques log-mel,
-          apprentissage en Python/PyTorch et évaluation par ROC-AUC.
-        </p>
+  Développement d’un pipeline non supervisé de détection d’anomalies audio industrielles.
+  Extraction de descripteurs log-mel, apprentissage d’un autoencodeur convolutionnel (PyTorch)
+  sur des signaux “normaux”, puis scoring par erreur de reconstruction. Évaluation par ROC-AUC.
+</p>
+<p class="tags">Mots-clés : PyTorch · Autoencodeur · Log-mel · Détection d’anomalies · ROC-AUC</p>
+
       </div>
 
       <div class="project">
         <h3>Programmation par contraintes — Structures moléculaires</h3>
         <p>
-          Stage R&D au LIS (CNRS) portant sur la modélisation et la génération automatique
-          de structures moléculaires par programmation par contraintes à l’aide du solveur Choco.
-        </p>
+  Stage R&D au LIS (CNRS) sur la modélisation et la génération automatique de structures
+  moléculaires 2D via programmation par contraintes. Formalisation du problème en CSP/COP
+  et résolution avec Choco Solver, avec un accent sur la rigueur de la modélisation, la
+  cohérence des solutions et l’exploration exhaustive sous contraintes.
+</p>
+<p class="tags">Mots-clés : CSP/COP · Choco Solver · Modélisation · Génération exhaustive</p>
+
       </div>
 
       <div class="project">
         <h3>Prévision de la demande par LSTM</h3>
         <p>
-          Modélisation de séries temporelles avec réseaux LSTM, feature engineering calendaire
-          et backtesting inspiré de cas industriels.
-        </p>
+  Modélisation de séries temporelles pour la prévision de demande : construction de baselines,
+  feature engineering calendaire, entraînement de réseaux LSTM et validation par backtesting.
+  Analyse comparative des performances et des limites (saisonnalité, dérive, horizon).
+</p>
+<p class="tags">Mots-clés : Séries temporelles · LSTM · Feature engineering · Backtesting</p>
+
       </div>
     </section>
+<section id="skills">
+  <h2>Compétences</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h3>IA / Deep Learning</h3>
+      <ul>
+        <li>Réseaux de neurones : CNN, RNN, LSTM</li>
+        <li>Apprentissage et optimisation de modèles, expérimentation</li>
+        <li>PyTorch (principal), notions JAX</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Machine Learning</h3>
+      <ul>
+        <li>Supervisé / non supervisé : régression, SVM, arbres, clustering</li>
+        <li>Prétraitement, features, validation / backtesting</li>
+        <li>Évaluation : métriques, courbes ROC-AUC</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>NLP</h3>
+      <ul>
+        <li>Prétraitement de texte, représentations (Word2Vec)</li>
+        <li>Modèles séquentiels : RNN/LSTM, notions Transformers</li>
+      </ul>
+    </div>
+
+    <div class="skill-card">
+      <h3>Outils & Développement</h3>
+      <ul>
+        <li>Python, Java, C — NumPy, SciPy</li>
+        <li>Git, Linux, VS Code, IntelliJ</li>
+        <li>LaTeX, notions Agile / Scrum</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
     <section id="contact">
       <h2>Contact</h2>
