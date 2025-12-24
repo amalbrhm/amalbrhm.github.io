@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Détection d’anomalies audio — Amal Bourahma</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <h1>Détection d’anomalies audio industrielles</h1>
+    <p class="subtitle">Autoencodeur convolutionnel · Log-mel · ROC-AUC</p>
+    <nav>
+      <a href="../index.html">← Retour au portfolio</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contexte</h2>
+      <p>
+        Projet de détection d’anomalies audio industrielles à partir de signaux acoustiques,
+        avec une approche non supervisée basée sur l’erreur de reconstruction.
+      </p>
+    </section>
+
+    <section>
+      <h2>Objectif</h2>
+      <ul>
+        <li>Détecter automatiquement des sons anormaux sans labels exhaustifs.</li>
+        <li>Construire un pipeline reproductible (prétraitement → modèle → scoring → évaluation).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Méthode</h2>
+      <ul>
+        <li>Extraction de caractéristiques : spectrogrammes log-mel.</li>
+        <li>Modèle : autoencodeur convolutionnel entraîné sur données “normales”.</li>
+        <li>Score : erreur de reconstruction (anomalie si score élevé).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Évaluation</h2>
+      <ul>
+        <li>Métrique : ROC-AUC.</li>
+        <li>Analyse : sensibilité au bruit, seuils, généralisation.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technologies</h2>
+      <p>Python · PyTorch · NumPy · extraction log-mel</p>
+    </section>
+
+    <section>
+      <h2>Liens</h2>
+      <div class="project-links">
+        <a href="https://github.com/amalbrhm" target="_blank" rel="noopener">Code (GitHub)</a>
+        <!-- Optionnel -->
+        <!-- <a href="../assets/pdf/rapport_anomalies_audio.pdf" target="_blank" rel="noopener">Rapport (PDF)</a> -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 — Amal Bourahma</p>
+  </footer>
+</body>
+</html>

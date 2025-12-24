@@ -111,3 +111,19 @@ footer {
   color: #475569;
   font-size: 0.95rem;
 }
+.project-links {
+  margin-top: 0.8rem;
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
